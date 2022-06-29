@@ -8,12 +8,8 @@ export default createGlobalStyle`
   font-family: "Roboto Mono", monospace;
   color: #000000;
   scroll-behavior: smooth;
-  transition: ease-in-out;
+  transition: ease-in-out; 
   
-  &::selection {
-    background-color: #62ed17;
-    color: #ffffff;
-  }
 }
 
 button {
@@ -31,8 +27,5 @@ a {
 
 h2 {
   font-size: 22px;
-}
-
-
-    
+}    
 `;
