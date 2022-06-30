@@ -1,16 +1,15 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-* {
+*, HTML, body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
-  color: #000000;
   scroll-behavior: smooth;
-  transition: ease-in-out; 
-  
+  transition: ease-in-out;
 }
+
 
 button {
     cursor: pointer;

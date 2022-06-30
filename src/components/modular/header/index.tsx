@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../UI/button";
 import { Container, Navigation } from "./styles";
 
 function Header() {
@@ -10,7 +9,7 @@ function Header() {
           <h1>HireMe.io</h1>
         </div>
         <div>
-          <Button />
+          <button></button>
         </div>
       </Container>
     </Navigation>

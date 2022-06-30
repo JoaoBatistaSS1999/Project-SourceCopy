@@ -1,10 +1,27 @@
-import Roadmap from "./sections/Roadmap";
+import DefaultHeader from "./components/default/header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import GlobalStyle from "./styles/GlobalStyle";
+import HeaderSection from "./pages/headers";
+import FooterSection from "./pages/footers";
+import RoadmapSection from "./pages/roadmaps";
+import SocialSection from "./pages/social";
+import ButtonSection from "./pages/buttons";
+import InputSection from "./pages/inputs";
 
 function App() {
   return (
-    <div className='App'>
-      <Roadmap />
-    </div>
+    <BrowserRouter>
+      <GlobalStyle />
+      <DefaultHeader />
+      <Routes>
+        <Route path='/headers' element={<HeaderSection />} />
+        <Route path='/footers' element={<FooterSection />} />
+        <Route path='/roadmaps' element={<RoadmapSection />} />
+        <Route path='/social' element={<SocialSection />} />
+        <Route path='/buttons' element={<ButtonSection />} />
+        <Route path='/inputs' element={<InputSection />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
