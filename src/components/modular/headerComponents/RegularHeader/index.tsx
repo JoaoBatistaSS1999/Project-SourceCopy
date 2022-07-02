@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Navigation } from "./styles";
 
 function Header() {
@@ -6,10 +5,14 @@ function Header() {
     <Navigation>
       <Container>
         <div>
-          <h1>HireMe.io</h1>
+          <h1>Logo</h1>
         </div>
-        <div>
-          <button></button>
+        <div className='indexes'>
+          <h2>project</h2>
+          <h2>tecnology</h2>
+          <h2>resources</h2>
+          <h2>contact</h2>
+          <h2>team</h2>
         </div>
       </Container>
     </Navigation>
