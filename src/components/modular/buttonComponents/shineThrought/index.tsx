@@ -2,11 +2,11 @@ import React from "react";
 import { ButtonCard } from "../../UI/buttonContainer/styles";
 import { Container } from "./styles";
 
-const BlurryEffect: React.FC = () => {
+const ShineButton: React.FC = () => {
   return (
     <ButtonCard>
-      <Container>Blurry</Container>
+      <Container>Shine</Container>
     </ButtonCard>
   );
 };
-export default BlurryEffect;
+export default ShineButton;

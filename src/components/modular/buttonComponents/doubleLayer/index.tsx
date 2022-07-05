@@ -2,6 +2,6 @@ import React from "react";
 import { DoubleLayerButton } from "./styles";
 
 const DoubleLayer: React.FC = () => {
-  return <DoubleLayerButton>Button</DoubleLayerButton>;
+  return <DoubleLayerButton>Layer</DoubleLayerButton>;
 };
 export default DoubleLayer;

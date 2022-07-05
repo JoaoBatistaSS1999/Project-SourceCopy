@@ -38,7 +38,7 @@ const LogoFooter: React.FC = () => {
       </ul>
 
       <div className='email'>
-        <span>suport at spacecryptolabs@protonmail.com</span>
+        <span>suport at yourteamemail@server.com</span>
       </div>
     </Container>
   );

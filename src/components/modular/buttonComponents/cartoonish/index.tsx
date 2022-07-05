@@ -5,7 +5,7 @@ import { Container } from "./styles";
 const CartoonishButton: React.FC = () => {
   return (
     <ButtonCard>
-      <Container>button</Container>
+      <Container>Cartton</Container>
     </ButtonCard>
   );
 };
