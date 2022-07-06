@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  min-height: calc(100vh - 60px);
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -9,4 +8,5 @@ export const Container = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   padding: 40px;
+  background-color: #3e3e3e;
 `;

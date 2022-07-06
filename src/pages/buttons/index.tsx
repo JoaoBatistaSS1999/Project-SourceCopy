@@ -8,6 +8,11 @@ import WiggleButton from "../../components/modular/buttonComponents/wiggleEffect
 import ShineButton from "../../components/modular/buttonComponents/shineThrought";
 import PulseButton from "../../components/modular/buttonComponents/pulseEffect";
 import RegularButton from "../../components/modular/buttonComponents/regularClick";
+import VerticalLines from "../../components/modular/buttonComponents/verticalLines";
+import NeonButton from "../../components/modular/buttonComponents/neonLight";
+import RGBButton from "../../components/modular/buttonComponents/RGBLights";
+import CrossEffect from "../../components/modular/buttonComponents/crossEffect";
+import LineArround from "../../components/modular/buttonComponents/lineArround";
 
 const ButtonSection: React.FC = () => {
   return (
@@ -20,6 +25,11 @@ const ButtonSection: React.FC = () => {
       <ShineButton />
       <PulseButton />
       <RegularButton />
+      <VerticalLines />
+      <NeonButton />
+      <RGBButton />
+      {/* <CrossEffect /> */}
+      <LineArround />
     </Container>
   );
 };
