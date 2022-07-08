@@ -13,6 +13,9 @@ import NeonButton from "../../components/modular/buttonComponents/neonLight";
 import RGBButton from "../../components/modular/buttonComponents/RGBLights";
 import CrossEffect from "../../components/modular/buttonComponents/crossEffect";
 import LineArround from "../../components/modular/buttonComponents/lineArround";
+import GrowCorner from "../../components/modular/buttonComponents/cornerGrow";
+import BubbleButton from "../../components/modular/buttonComponents/bubbles";
+import ArrowButton from "../../components/modular/buttonComponents/next";
 
 const ButtonSection: React.FC = () => {
   return (
@@ -29,7 +32,10 @@ const ButtonSection: React.FC = () => {
       <NeonButton />
       <RGBButton />
       {/* <CrossEffect /> */}
-      <LineArround />
+      {/* <LineArround /> */}
+      <GrowCorner />
+      {/* <BubbleButton /> */}
+      <ArrowButton />
     </Container>
   );
 };

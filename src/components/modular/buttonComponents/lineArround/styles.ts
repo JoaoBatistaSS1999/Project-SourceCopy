@@ -8,7 +8,6 @@ export const Container = styled.div`
   .center {
     width: 180px;
     height: 60px;
-    position: absolute;
   }
 
   .btn {
