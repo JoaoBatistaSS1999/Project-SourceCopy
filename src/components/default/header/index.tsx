@@ -24,6 +24,9 @@ const DefaultHeader: React.FC = () => {
       <NavLink to='/inputs' className='testing'>
         <Selector>Inputs</Selector>
       </NavLink>
+      <NavLink to='/links' className='testing'>
+        <Selector>Links</Selector>
+      </NavLink>
     </Container>
   );
 };

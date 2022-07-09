@@ -7,6 +7,7 @@ import RoadmapSection from "./pages/roadmaps";
 import SocialSection from "./pages/social";
 import ButtonSection from "./pages/buttons";
 import InputSection from "./pages/inputs";
+import LinksSection from "./pages/links";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/social' element={<SocialSection />} />
         <Route path='/buttons' element={<ButtonSection />} />
         <Route path='/inputs' element={<InputSection />} />
+        <Route path='/links' element={<LinksSection />} />
       </Routes>
     </BrowserRouter>
   );
