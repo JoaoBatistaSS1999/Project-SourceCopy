@@ -30,6 +30,9 @@ const DefaultHeader: React.FC = () => {
       <NavLink to='/fields' className='testing'>
         <Selector>Fields</Selector>
       </NavLink>
+      <NavLink to='/logos' className='testing'>
+        <Selector>Fields</Selector>
+      </NavLink>
     </Container>
   );
 };

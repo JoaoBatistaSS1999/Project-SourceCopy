@@ -9,6 +9,7 @@ import ButtonSection from "./pages/buttons";
 import InputSection from "./pages/inputs";
 import LinksSection from "./pages/links";
 import InputField from "./pages/inputField";
+import LogoSection from "./pages/logos/index";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path='/buttons' element={<ButtonSection />} />
         <Route path='/inputs' element={<InputSection />} />
         <Route path='/links' element={<LinksSection />} />
-        <Route path='/fields' element={<InputField />} />
+        <Route path='/fieldslogofields' element={<LogoSection />} />
       </Routes>
     </BrowserRouter>
   );
